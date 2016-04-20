@@ -17,6 +17,7 @@
 		D1CF5D5B1CC7514900E021CE /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF5D5A1CC7514900E021CE /* libxml2.tbd */; };
 		D1CF5D601CC7518700E021CE /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF5D5D1CC7518700E021CE /* PlayerViewController.m */; };
 		D1CF5D611CC7518700E021CE /* RendererViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF5D5F1CC7518700E021CE /* RendererViewController.m */; };
+		D1CF5D641CC753B600E021CE /* libclinkcm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF5D631CC753B600E021CE /* libclinkcm.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		D1CF5D5D1CC7518700E021CE /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		D1CF5D5E1CC7518700E021CE /* RendererViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RendererViewController.h; sourceTree = "<group>"; };
 		D1CF5D5F1CC7518700E021CE /* RendererViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RendererViewController.m; sourceTree = "<group>"; };
+		D1CF5D631CC753B600E021CE /* libclinkcm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libclinkcm.a; path = "DLNA-ObjC/Lib/libclinkcm.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1CF5D641CC753B600E021CE /* libclinkcm.a in Frameworks */,
 				D1CF5D5B1CC7514900E021CE /* libxml2.tbd in Frameworks */,
 				D1CF5D591CC7514300E021CE /* libclinkc.a in Frameworks */,
 			);
@@ -150,6 +153,7 @@
 		D1CF5D621CC751DD00E021CE /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1CF5D631CC753B600E021CE /* libclinkcm.a */,
 				D1CF5D5A1CC7514900E021CE /* libxml2.tbd */,
 				D1CF5D581CC7514300E021CE /* libclinkc.a */,
 			);
