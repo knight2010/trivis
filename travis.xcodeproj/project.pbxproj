@@ -13,6 +13,10 @@
 		D1CF5CFE1CC727CE00E021CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CF5CFC1CC727CE00E021CE /* Main.storyboard */; };
 		D1CF5D001CC727CE00E021CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CF5CFF1CC727CE00E021CE /* Assets.xcassets */; };
 		D1CF5D031CC727CE00E021CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CF5D011CC727CE00E021CE /* LaunchScreen.storyboard */; };
+		D1CF5D591CC7514300E021CE /* libclinkc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF5D581CC7514300E021CE /* libclinkc.a */; };
+		D1CF5D5B1CC7514900E021CE /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF5D5A1CC7514900E021CE /* libxml2.tbd */; };
+		D1CF5D601CC7518700E021CE /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF5D5D1CC7518700E021CE /* PlayerViewController.m */; };
+		D1CF5D611CC7518700E021CE /* RendererViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF5D5F1CC7518700E021CE /* RendererViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,33 @@
 		D1CF5CFF1CC727CE00E021CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1CF5D021CC727CE00E021CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1CF5D041CC727CE00E021CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CF5D431CC7513200E021CE /* CGUpnpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAction.h; sourceTree = "<group>"; };
+		D1CF5D441CC7513200E021CE /* CGUpnpAvContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvContainer.h; sourceTree = "<group>"; };
+		D1CF5D451CC7513200E021CE /* CGUpnpAvContentDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvContentDirectory.h; sourceTree = "<group>"; };
+		D1CF5D461CC7513200E021CE /* CGUpnpAvContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvContentManager.h; sourceTree = "<group>"; };
+		D1CF5D471CC7513200E021CE /* CGUpnpAvController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvController.h; sourceTree = "<group>"; };
+		D1CF5D481CC7513200E021CE /* CGUpnpAvItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvItem.h; sourceTree = "<group>"; };
+		D1CF5D491CC7513200E021CE /* CGUpnpAvObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvObject.h; sourceTree = "<group>"; };
+		D1CF5D4A1CC7513200E021CE /* CGUpnpAVPositionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAVPositionInfo.h; sourceTree = "<group>"; };
+		D1CF5D4B1CC7513200E021CE /* CGUpnpAvRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvRenderer.h; sourceTree = "<group>"; };
+		D1CF5D4C1CC7513200E021CE /* CGUpnpAvResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvResource.h; sourceTree = "<group>"; };
+		D1CF5D4D1CC7513200E021CE /* CGUpnpAvRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvRoot.h; sourceTree = "<group>"; };
+		D1CF5D4E1CC7513200E021CE /* CGUpnpAvServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvServer.h; sourceTree = "<group>"; };
+		D1CF5D4F1CC7513200E021CE /* CGUpnpControlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpControlPoint.h; sourceTree = "<group>"; };
+		D1CF5D501CC7513200E021CE /* CGUpnpDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpDevice.h; sourceTree = "<group>"; };
+		D1CF5D511CC7513200E021CE /* CGUpnpIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpIcon.h; sourceTree = "<group>"; };
+		D1CF5D521CC7513200E021CE /* CGUpnpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpService.h; sourceTree = "<group>"; };
+		D1CF5D531CC7513200E021CE /* CGUpnpStateVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpStateVariable.h; sourceTree = "<group>"; };
+		D1CF5D541CC7513200E021CE /* CGXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXml.h; sourceTree = "<group>"; };
+		D1CF5D551CC7513200E021CE /* CGXmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXmlNode.h; sourceTree = "<group>"; };
+		D1CF5D561CC7513200E021CE /* UPnP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnP.h; sourceTree = "<group>"; };
+		D1CF5D571CC7513200E021CE /* UPnPAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPAV.h; sourceTree = "<group>"; };
+		D1CF5D581CC7514300E021CE /* libclinkc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libclinkc.a; path = "DLNA-ObjC/Lib/libclinkc.a"; sourceTree = "<group>"; };
+		D1CF5D5A1CC7514900E021CE /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		D1CF5D5C1CC7518700E021CE /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		D1CF5D5D1CC7518700E021CE /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		D1CF5D5E1CC7518700E021CE /* RendererViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RendererViewController.h; sourceTree = "<group>"; };
+		D1CF5D5F1CC7518700E021CE /* RendererViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RendererViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1CF5D5B1CC7514900E021CE /* libxml2.tbd in Frameworks */,
+				D1CF5D591CC7514300E021CE /* libclinkc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 		D1CF5CE71CC727CE00E021CE = {
 			isa = PBXGroup;
 			children = (
+				D1CF5D621CC751DD00E021CE /* frameworks */,
+				D1CF5D421CC7513200E021CE /* CyberLink */,
 				D1CF5CF21CC727CE00E021CE /* travis */,
 				D1CF5CF11CC727CE00E021CE /* Products */,
 			);
@@ -58,6 +93,10 @@
 		D1CF5CF21CC727CE00E021CE /* travis */ = {
 			isa = PBXGroup;
 			children = (
+				D1CF5D5C1CC7518700E021CE /* PlayerViewController.h */,
+				D1CF5D5D1CC7518700E021CE /* PlayerViewController.m */,
+				D1CF5D5E1CC7518700E021CE /* RendererViewController.h */,
+				D1CF5D5F1CC7518700E021CE /* RendererViewController.m */,
 				D1CF5CF61CC727CE00E021CE /* AppDelegate.h */,
 				D1CF5CF71CC727CE00E021CE /* AppDelegate.m */,
 				D1CF5CF91CC727CE00E021CE /* ViewController.h */,
@@ -77,6 +116,44 @@
 				D1CF5CF41CC727CE00E021CE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1CF5D421CC7513200E021CE /* CyberLink */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF5D431CC7513200E021CE /* CGUpnpAction.h */,
+				D1CF5D441CC7513200E021CE /* CGUpnpAvContainer.h */,
+				D1CF5D451CC7513200E021CE /* CGUpnpAvContentDirectory.h */,
+				D1CF5D461CC7513200E021CE /* CGUpnpAvContentManager.h */,
+				D1CF5D471CC7513200E021CE /* CGUpnpAvController.h */,
+				D1CF5D481CC7513200E021CE /* CGUpnpAvItem.h */,
+				D1CF5D491CC7513200E021CE /* CGUpnpAvObject.h */,
+				D1CF5D4A1CC7513200E021CE /* CGUpnpAVPositionInfo.h */,
+				D1CF5D4B1CC7513200E021CE /* CGUpnpAvRenderer.h */,
+				D1CF5D4C1CC7513200E021CE /* CGUpnpAvResource.h */,
+				D1CF5D4D1CC7513200E021CE /* CGUpnpAvRoot.h */,
+				D1CF5D4E1CC7513200E021CE /* CGUpnpAvServer.h */,
+				D1CF5D4F1CC7513200E021CE /* CGUpnpControlPoint.h */,
+				D1CF5D501CC7513200E021CE /* CGUpnpDevice.h */,
+				D1CF5D511CC7513200E021CE /* CGUpnpIcon.h */,
+				D1CF5D521CC7513200E021CE /* CGUpnpService.h */,
+				D1CF5D531CC7513200E021CE /* CGUpnpStateVariable.h */,
+				D1CF5D541CC7513200E021CE /* CGXml.h */,
+				D1CF5D551CC7513200E021CE /* CGXmlNode.h */,
+				D1CF5D561CC7513200E021CE /* UPnP.h */,
+				D1CF5D571CC7513200E021CE /* UPnPAV.h */,
+			);
+			name = CyberLink;
+			path = "DLNA-ObjC/CyberLink";
+			sourceTree = "<group>";
+		};
+		D1CF5D621CC751DD00E021CE /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF5D5A1CC7514900E021CE /* libxml2.tbd */,
+				D1CF5D581CC7514300E021CE /* libclinkc.a */,
+			);
+			name = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1CF5CFB1CC727CE00E021CE /* ViewController.m in Sources */,
+				D1CF5D601CC7518700E021CE /* PlayerViewController.m in Sources */,
+				D1CF5D611CC7518700E021CE /* RendererViewController.m in Sources */,
 				D1CF5CF81CC727CE00E021CE /* AppDelegate.m in Sources */,
 				D1CF5CF51CC727CE00E021CE /* main.m in Sources */,
 			);
@@ -263,9 +342,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/DLNA-ObjC/";
 				INFOPLIST_FILE = travis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DLNA-ObjC/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goswift.travis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -275,9 +360,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/DLNA-ObjC/";
 				INFOPLIST_FILE = travis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DLNA-ObjC/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.goswift.travis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -302,6 +393,7 @@
 				D1CF5D091CC727CE00E021CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
