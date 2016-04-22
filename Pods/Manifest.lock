@@ -1,0 +1,54 @@
+PODS:
+  - CHiQDlnaServer (0.1.0):
+    - CocoaAsyncSocket (= 7.4.3)
+    - CocoaHTTPServer (~> 2.3)
+    - CocoaLumberjack (~> 2.2.0)
+    - DDLogger (= 1.1.1)
+    - ZipArchive (~> 1.3.0)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CocoaHTTPServer (2.3):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - DDLogger (1.1.1):
+    - ICTextView (~> 2.0.1)
+  - ICTextView (2.0.1)
+  - ZipArchive (1.3.0)
+
+DEPENDENCIES:
+  - CHiQDlnaServer (from `http://10.9.50.193/knight.lu/DLNA-Server.git`)
+
+EXTERNAL SOURCES:
+  CHiQDlnaServer:
+    :git: http://10.9.50.193/knight.lu/DLNA-Server.git
+
+CHECKOUT OPTIONS:
+  CHiQDlnaServer:
+    :commit: 8b496e1257a22f6a7859668f1693a484ea2aa68f
+    :git: http://10.9.50.193/knight.lu/DLNA-Server.git
+
+SPEC CHECKSUMS:
+  CHiQDlnaServer: f0bac4b2fbc14cca3a0a6548492eb4e1589c0123
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CocoaHTTPServer: 5624681fc3473d43b18202f635f9b3abb013b530
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  DDLogger: 32ca5e6324a4e90adda1e112a398effa1d7d7933
+  ICTextView: 937aca5dd49e39e9cca41ababe8c55bf99c634fc
+  ZipArchive: c8bd32d0b8f1ada4ac967b72ceca8130d680adc5
+
+PODFILE CHECKSUM: ad3900f2537aca32f5c86b91e9b480f63f26ef9f
+
+COCOAPODS: 1.0.0.beta.5

@@ -7,7 +7,7 @@
 //
 
 #import "PlayerViewController.h"
-#import <CyberLink/UPnPAV.h>
+#import "UPnPAV.h"
 
 static NSString * const kVideoURLStr =
 @"http://go-swift.net/123.wav";

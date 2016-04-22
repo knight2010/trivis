@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFC566654426679813D7C9D8 /* libPods-travis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8A02583E8A6CA5ED3AA344 /* libPods-travis.a */; };
 		D1CF5CF51CC727CE00E021CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF5CF41CC727CE00E021CE /* main.m */; };
 		D1CF5CF81CC727CE00E021CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF5CF71CC727CE00E021CE /* AppDelegate.m */; };
 		D1CF5CFB1CC727CE00E021CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF5CFA1CC727CE00E021CE /* ViewController.m */; };
 		D1CF5CFE1CC727CE00E021CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CF5CFC1CC727CE00E021CE /* Main.storyboard */; };
 		D1CF5D001CC727CE00E021CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CF5CFF1CC727CE00E021CE /* Assets.xcassets */; };
 		D1CF5D031CC727CE00E021CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CF5D011CC727CE00E021CE /* LaunchScreen.storyboard */; };
-		D1CF5D591CC7514300E021CE /* libclinkc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF5D581CC7514300E021CE /* libclinkc.a */; };
-		D1CF5D5B1CC7514900E021CE /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF5D5A1CC7514900E021CE /* libxml2.tbd */; };
 		D1CF5D601CC7518700E021CE /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF5D5D1CC7518700E021CE /* PlayerViewController.m */; };
 		D1CF5D611CC7518700E021CE /* RendererViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF5D5F1CC7518700E021CE /* RendererViewController.m */; };
-		D1CF5D641CC753B600E021CE /* libclinkcm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF5D631CC753B600E021CE /* libclinkcm.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C393DA0F72B5F776BEF9F1E0 /* Pods-travis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travis.release.xcconfig"; path = "Pods/Target Support Files/Pods-travis/Pods-travis.release.xcconfig"; sourceTree = "<group>"; };
+		CC8A02583E8A6CA5ED3AA344 /* libPods-travis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-travis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CF5CF01CC727CE00E021CE /* travis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CF5CF41CC727CE00E021CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1CF5CF61CC727CE00E021CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,34 +31,11 @@
 		D1CF5CFF1CC727CE00E021CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1CF5D021CC727CE00E021CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1CF5D041CC727CE00E021CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1CF5D431CC7513200E021CE /* CGUpnpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAction.h; sourceTree = "<group>"; };
-		D1CF5D441CC7513200E021CE /* CGUpnpAvContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvContainer.h; sourceTree = "<group>"; };
-		D1CF5D451CC7513200E021CE /* CGUpnpAvContentDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvContentDirectory.h; sourceTree = "<group>"; };
-		D1CF5D461CC7513200E021CE /* CGUpnpAvContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvContentManager.h; sourceTree = "<group>"; };
-		D1CF5D471CC7513200E021CE /* CGUpnpAvController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvController.h; sourceTree = "<group>"; };
-		D1CF5D481CC7513200E021CE /* CGUpnpAvItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvItem.h; sourceTree = "<group>"; };
-		D1CF5D491CC7513200E021CE /* CGUpnpAvObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvObject.h; sourceTree = "<group>"; };
-		D1CF5D4A1CC7513200E021CE /* CGUpnpAVPositionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAVPositionInfo.h; sourceTree = "<group>"; };
-		D1CF5D4B1CC7513200E021CE /* CGUpnpAvRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvRenderer.h; sourceTree = "<group>"; };
-		D1CF5D4C1CC7513200E021CE /* CGUpnpAvResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvResource.h; sourceTree = "<group>"; };
-		D1CF5D4D1CC7513200E021CE /* CGUpnpAvRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvRoot.h; sourceTree = "<group>"; };
-		D1CF5D4E1CC7513200E021CE /* CGUpnpAvServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvServer.h; sourceTree = "<group>"; };
-		D1CF5D4F1CC7513200E021CE /* CGUpnpControlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpControlPoint.h; sourceTree = "<group>"; };
-		D1CF5D501CC7513200E021CE /* CGUpnpDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpDevice.h; sourceTree = "<group>"; };
-		D1CF5D511CC7513200E021CE /* CGUpnpIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpIcon.h; sourceTree = "<group>"; };
-		D1CF5D521CC7513200E021CE /* CGUpnpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpService.h; sourceTree = "<group>"; };
-		D1CF5D531CC7513200E021CE /* CGUpnpStateVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpStateVariable.h; sourceTree = "<group>"; };
-		D1CF5D541CC7513200E021CE /* CGXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXml.h; sourceTree = "<group>"; };
-		D1CF5D551CC7513200E021CE /* CGXmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXmlNode.h; sourceTree = "<group>"; };
-		D1CF5D561CC7513200E021CE /* UPnP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnP.h; sourceTree = "<group>"; };
-		D1CF5D571CC7513200E021CE /* UPnPAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPAV.h; sourceTree = "<group>"; };
-		D1CF5D581CC7514300E021CE /* libclinkc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libclinkc.a; path = "DLNA-ObjC/Lib/libclinkc.a"; sourceTree = "<group>"; };
-		D1CF5D5A1CC7514900E021CE /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		D1CF5D5C1CC7518700E021CE /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		D1CF5D5D1CC7518700E021CE /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		D1CF5D5E1CC7518700E021CE /* RendererViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RendererViewController.h; sourceTree = "<group>"; };
 		D1CF5D5F1CC7518700E021CE /* RendererViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RendererViewController.m; sourceTree = "<group>"; };
-		D1CF5D631CC753B600E021CE /* libclinkcm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libclinkcm.a; path = "DLNA-ObjC/Lib/libclinkcm.a"; sourceTree = "<group>"; };
+		F7C54969E73C0E29E533C44F /* Pods-travis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-travis/Pods-travis.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1CF5D641CC753B600E021CE /* libclinkcm.a in Frameworks */,
-				D1CF5D5B1CC7514900E021CE /* libxml2.tbd in Frameworks */,
-				D1CF5D591CC7514300E021CE /* libclinkc.a in Frameworks */,
+				BFC566654426679813D7C9D8 /* libPods-travis.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		696BCE430DAF933C21526159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC8A02583E8A6CA5ED3AA344 /* libPods-travis.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1CF5CE71CC727CE00E021CE = {
 			isa = PBXGroup;
 			children = (
 				D1CF5D621CC751DD00E021CE /* frameworks */,
-				D1CF5D421CC7513200E021CE /* CyberLink */,
 				D1CF5CF21CC727CE00E021CE /* travis */,
 				D1CF5CF11CC727CE00E021CE /* Products */,
+				D78C0F6C38A50C1EF348B0B7 /* Pods */,
+				696BCE430DAF933C21526159 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,43 +105,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D1CF5D421CC7513200E021CE /* CyberLink */ = {
-			isa = PBXGroup;
-			children = (
-				D1CF5D431CC7513200E021CE /* CGUpnpAction.h */,
-				D1CF5D441CC7513200E021CE /* CGUpnpAvContainer.h */,
-				D1CF5D451CC7513200E021CE /* CGUpnpAvContentDirectory.h */,
-				D1CF5D461CC7513200E021CE /* CGUpnpAvContentManager.h */,
-				D1CF5D471CC7513200E021CE /* CGUpnpAvController.h */,
-				D1CF5D481CC7513200E021CE /* CGUpnpAvItem.h */,
-				D1CF5D491CC7513200E021CE /* CGUpnpAvObject.h */,
-				D1CF5D4A1CC7513200E021CE /* CGUpnpAVPositionInfo.h */,
-				D1CF5D4B1CC7513200E021CE /* CGUpnpAvRenderer.h */,
-				D1CF5D4C1CC7513200E021CE /* CGUpnpAvResource.h */,
-				D1CF5D4D1CC7513200E021CE /* CGUpnpAvRoot.h */,
-				D1CF5D4E1CC7513200E021CE /* CGUpnpAvServer.h */,
-				D1CF5D4F1CC7513200E021CE /* CGUpnpControlPoint.h */,
-				D1CF5D501CC7513200E021CE /* CGUpnpDevice.h */,
-				D1CF5D511CC7513200E021CE /* CGUpnpIcon.h */,
-				D1CF5D521CC7513200E021CE /* CGUpnpService.h */,
-				D1CF5D531CC7513200E021CE /* CGUpnpStateVariable.h */,
-				D1CF5D541CC7513200E021CE /* CGXml.h */,
-				D1CF5D551CC7513200E021CE /* CGXmlNode.h */,
-				D1CF5D561CC7513200E021CE /* UPnP.h */,
-				D1CF5D571CC7513200E021CE /* UPnPAV.h */,
-			);
-			name = CyberLink;
-			path = "DLNA-ObjC/CyberLink";
-			sourceTree = "<group>";
-		};
 		D1CF5D621CC751DD00E021CE /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1CF5D631CC753B600E021CE /* libclinkcm.a */,
-				D1CF5D5A1CC7514900E021CE /* libxml2.tbd */,
-				D1CF5D581CC7514300E021CE /* libclinkc.a */,
 			);
 			name = frameworks;
+			sourceTree = "<group>";
+		};
+		D78C0F6C38A50C1EF348B0B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7C54969E73C0E29E533C44F /* Pods-travis.debug.xcconfig */,
+				C393DA0F72B5F776BEF9F1E0 /* Pods-travis.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1CF5D071CC727CE00E021CE /* Build configuration list for PBXNativeTarget "travis" */;
 			buildPhases = (
+				1708B4FC0A8EF1280BC78D1A /* 📦 Check Pods Manifest.lock */,
 				D1CF5CEC1CC727CE00E021CE /* Sources */,
 				D1CF5CED1CC727CE00E021CE /* Frameworks */,
 				D1CF5CEE1CC727CE00E021CE /* Resources */,
+				DD58BB96F09D1A2EA0597D99 /* 📦 Embed Pods Frameworks */,
+				D28FE1873D4E4C972559748D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +188,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1708B4FC0A8EF1280BC78D1A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D28FE1873D4E4C972559748D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-travis/Pods-travis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD58BB96F09D1A2EA0597D99 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-travis/Pods-travis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1CF5CEC1CC727CE00E021CE /* Sources */ = {
@@ -344,17 +356,15 @@
 		};
 		D1CF5D081CC727CE00E021CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C54969E73C0E29E533C44F /* Pods-travis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/DLNA-ObjC/";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = travis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/DLNA-ObjC/Lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goswift.travis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,17 +372,15 @@
 		};
 		D1CF5D091CC727CE00E021CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C393DA0F72B5F776BEF9F1E0 /* Pods-travis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/DLNA-ObjC/";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = travis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/DLNA-ObjC/Lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goswift.travis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

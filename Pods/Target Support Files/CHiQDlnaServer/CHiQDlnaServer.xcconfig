@@ -1,0 +1,9 @@
+CONFIGURATION_BUILD_DIR = $PODS_SHARED_BUILD_DIR/CHiQDlnaServer
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/CHiQDlnaServer" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CHiQDlnaServer" "${PODS_ROOT}/Headers/Public/CocoaAsyncSocket" "${PODS_ROOT}/Headers/Public/CocoaHTTPServer" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/DDLogger" "${PODS_ROOT}/Headers/Public/ICTextView" "${PODS_ROOT}/Headers/Public/ZipArchive"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/CHiQDlnaServer/Pod/Libraries" "$PODS_SHARED_BUILD_DIR/CocoaAsyncSocket" "$PODS_SHARED_BUILD_DIR/CocoaHTTPServer" "$PODS_SHARED_BUILD_DIR/CocoaLumberjack" "$PODS_SHARED_BUILD_DIR/DDLogger" "$PODS_SHARED_BUILD_DIR/ICTextView" "$PODS_SHARED_BUILD_DIR/ZipArchive"
+OTHER_LDFLAGS = -l"clinkc" -l"clinkc-moc" -l"xml2"
+PODS_ROOT = ${SRCROOT}
+PODS_SHARED_BUILD_DIR = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

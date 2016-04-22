@@ -8,7 +8,7 @@
 
 #import "RendererViewController.h"
 #import "PlayerViewController.h"
-#import <CyberLink/UPnPAV.h>
+#import "UPnPAV.h"
 
 static NSString *kCellIdentifier = @"RendererCell";
 
